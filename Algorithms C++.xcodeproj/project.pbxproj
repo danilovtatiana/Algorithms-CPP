@@ -27,6 +27,7 @@
 		46E438CE261E00930063CD51 /* Algorithms C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E438D1261E00930063CD51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		46E438D9261E048A0063CD51 /* count_even_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count_even_numbers.cpp; sourceTree = "<group>"; };
+		46E438DC261E1B050063CD51 /* count_even_numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = count_even_numbers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				46E438D1261E00930063CD51 /* main.cpp */,
 				46E438D9261E048A0063CD51 /* count_even_numbers.cpp */,
+				46E438DC261E1B050063CD51 /* count_even_numbers.h */,
 			);
 			path = "Algorithms C++";
 			sourceTree = "<group>";

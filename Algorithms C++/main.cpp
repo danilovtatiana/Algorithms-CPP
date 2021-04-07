@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include "count_even_numbers.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main (){
+    int list[10] = {2,4,3,5,7,9};
+    int list_size = sizeof(list) / sizeof(list[0]);
+
+    std:: cout << evenNumbers(list, list_size) << "\n";
+    
+    std:: cout << sum (5, 10) << "\n";
+    
     return 0;
 }
+
