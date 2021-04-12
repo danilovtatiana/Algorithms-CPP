@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		46E438D2261E00930063CD51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E438D1261E00930063CD51 /* main.cpp */; };
 		46E438DA261E048A0063CD51 /* count_even_numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E438D9261E048A0063CD51 /* count_even_numbers.cpp */; };
+		46E438E0261E30590063CD51 /* sum_positiv_elem_in_odd_pos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E438DE261E30590063CD51 /* sum_positiv_elem_in_odd_pos.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		46E438D1261E00930063CD51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		46E438D9261E048A0063CD51 /* count_even_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count_even_numbers.cpp; sourceTree = "<group>"; };
 		46E438DC261E1B050063CD51 /* count_even_numbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = count_even_numbers.h; sourceTree = "<group>"; };
+		46E438DE261E30590063CD51 /* sum_positiv_elem_in_odd_pos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sum_positiv_elem_in_odd_pos.cpp; sourceTree = "<group>"; };
+		46E438DF261E30590063CD51 /* sum_positiv_elem_in_odd_pos.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sum_positiv_elem_in_odd_pos.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				46E438D1261E00930063CD51 /* main.cpp */,
+				46E438DE261E30590063CD51 /* sum_positiv_elem_in_odd_pos.cpp */,
+				46E438DF261E30590063CD51 /* sum_positiv_elem_in_odd_pos.hpp */,
 				46E438D9261E048A0063CD51 /* count_even_numbers.cpp */,
 				46E438DC261E1B050063CD51 /* count_even_numbers.h */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E438E0261E30590063CD51 /* sum_positiv_elem_in_odd_pos.cpp in Sources */,
 				46E438DA261E048A0063CD51 /* count_even_numbers.cpp in Sources */,
 				46E438D2261E00930063CD51 /* main.cpp in Sources */,
 			);
